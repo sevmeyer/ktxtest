@@ -1,0 +1,28 @@
+{
+  "format": "KTX 11",
+  "header": {
+    "identifier":            "%ABKTX 11%BB%0D%0A%1A%0A",
+    "endianness":            "0x01020304",
+    "glType":                "GL_UNSIGNED_BYTE",
+    "glTypeSize":            1,
+    "glFormat":              "GL_RG",
+    "glInternalFormat":      "GL_RG8",
+    "glBaseInternalFormat":  "GL_RG",
+    "pixelWidth":            64,
+    "pixelHeight":           64,
+    "pixelDepth":            0,
+    "numberOfArrayElements": 0,
+    "numberOfFaces":         1,
+    "numberOfMipmapLevels":  7,
+    "bytesOfKeyValueData":   0
+  },
+  "levels": [
+    {"imageSize": 8192, "images": ["bin/format_raw_r8g8_unorm.0.bin"]},
+    {"imageSize": 2048, "images": ["%11"]},
+    {"imageSize":  512, "images": ["%22"]},
+    {"imageSize":  128, "images": ["%33"]},
+    {"imageSize":   32, "images": ["%44"]},
+    {"imageSize":    8, "images": ["%55"]},
+    {"imageSize":    4, "images": ["%66%66%00%00"]}
+  ]
+}

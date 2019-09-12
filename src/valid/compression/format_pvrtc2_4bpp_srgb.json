@@ -1,0 +1,28 @@
+{
+  "format": "KTX 11",
+  "header": {
+    "identifier":            "%ABKTX 11%BB%0D%0A%1A%0A",
+    "endianness":            "0x04030201",
+    "glType":                "0x0000",
+    "glTypeSize":            1,
+    "glFormat":              "0x0000",
+    "glInternalFormat":      "GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV2_IMG",
+    "glBaseInternalFormat":  "GL_RGBA",
+    "pixelWidth":            64,
+    "pixelHeight":           64,
+    "pixelDepth":            0,
+    "numberOfArrayElements": 0,
+    "numberOfFaces":         1,
+    "numberOfMipmapLevels":  7,
+    "bytesOfKeyValueData":   0
+  },
+  "levels": [
+    {"imageSize": 2048, "images": ["bin/format_pvrtc2_4bpp_srgb.0.bin"]},
+    {"imageSize":  512, "images": ["%AA%AA%AA%AA%00%7C%00%FC"]},
+    {"imageSize":  128, "images": ["%AA%AA%AA%AA%E0%7F%E0%FF"]},
+    {"imageSize":   32, "images": ["%AA%AA%AA%AA%E0%03%E0%83"]},
+    {"imageSize":    8, "images": ["%AA%AA%AA%AA%FE%03%FF%83"]},
+    {"imageSize":    8, "images": ["%AA%AA%AA%AA%1E%00%1F%80"]},
+    {"imageSize":    8, "images": ["%AA%AA%AA%AA%1E%7C%1F%FC"]}
+  ]
+}

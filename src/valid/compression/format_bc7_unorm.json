@@ -1,0 +1,28 @@
+{
+  "format": "KTX 11",
+  "header": {
+    "identifier":            "%ABKTX 11%BB%0D%0A%1A%0A",
+    "endianness":            "0x04030201",
+    "glType":                "0x0000",
+    "glTypeSize":            1,
+    "glFormat":              "0x0000",
+    "glInternalFormat":      "GL_COMPRESSED_RGBA_BPTC_UNORM_ARB",
+    "glBaseInternalFormat":  "GL_RGBA",
+    "pixelWidth":            64,
+    "pixelHeight":           64,
+    "pixelDepth":            0,
+    "numberOfArrayElements": 0,
+    "numberOfFaces":         1,
+    "numberOfMipmapLevels":  7,
+    "bytesOfKeyValueData":   0
+  },
+  "levels": [
+    {"imageSize": 4096, "images": ["bin/format_bc7_unorm.0.bin"]},
+    {"imageSize": 1024, "images": ["%C0%FF%1F%20%01%48%FE%FF%7E%77%77%77%77%77%77%77"]},
+    {"imageSize":  256, "images": ["%C0%FF%FF%FF%07%90%FE%FF%7E%77%77%77%77%77%77%77"]},
+    {"imageSize":   64, "images": ["%40%80%ED%FF%07%D8%FE%FF%7E%77%77%77%77%77%77%77"]},
+    {"imageSize":   16, "images": ["%40%00%F2%FF%FF%FF%FF%FF%7E%77%77%77%77%77%77%77"]},
+    {"imageSize":   16, "images": ["%40%80%16%A0%FD%FF%FF%FF%7E%77%77%77%77%77%77%77"]},
+    {"imageSize":   16, "images": ["%C0%FF%1F%C0%FE%FF%FF%FF%7E%77%77%77%77%77%77%77"]}
+  ]
+}
