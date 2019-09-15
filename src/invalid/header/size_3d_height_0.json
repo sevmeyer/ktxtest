@@ -1,0 +1,22 @@
+{
+  "format": "KTX 11",
+  "header": {
+    "identifier":            "%ABKTX 11%BB%0D%0A%1A%0A",
+    "endianness":            "0x04030201",
+    "glType":                "GL_UNSIGNED_BYTE",
+    "glTypeSize":            1,
+    "glFormat":              "GL_RED",
+    "glInternalFormat":      "GL_R8",
+    "glBaseInternalFormat":  "GL_RED",
+    "pixelWidth":            16,
+    "pixelHeight":           0,
+    "pixelDepth":            16,
+    "numberOfArrayElements": 0,
+    "numberOfFaces":         1,
+    "numberOfMipmapLevels":  1,
+    "bytesOfKeyValueData":   0
+  },
+  "levels": [
+    {"imageSize": 256, "images": ["%FF"]}
+  ]
+}

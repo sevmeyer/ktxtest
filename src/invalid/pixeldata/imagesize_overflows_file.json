@@ -1,0 +1,22 @@
+{
+  "format": "KTX 11",
+  "header": {
+    "identifier":            "%ABKTX 11%BB%0D%0A%1A%0A",
+    "endianness":            "0x04030201",
+    "glType":                "GL_UNSIGNED_BYTE",
+    "glTypeSize":            1,
+    "glFormat":              "GL_RGBA",
+    "glInternalFormat":      "GL_RGBA8",
+    "glBaseInternalFormat":  "GL_RGBA",
+    "pixelWidth":            16,
+    "pixelHeight":           16,
+    "pixelDepth":            0,
+    "numberOfArrayElements": 0,
+    "numberOfFaces":         1,
+    "numberOfMipmapLevels":  1,
+    "bytesOfKeyValueData":   0
+  },
+  "levels": [
+    {"imageSize": 1024, "images": ["bin/error_rgba_half.0.bin"]}
+  ]
+}
