@@ -2,6 +2,10 @@
 
 - None.
 
+## 0.4.0 (2019-10-23)
+
+- Added invalid/header/eof* test files.
+
 ## 0.3.0 (2019-10-20)
 
 - Added invalid/header/gl*_invalid test files.
